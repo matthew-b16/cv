@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Info</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <hr>
+  <!-- Add Table -->
+  <p><strong>Work Phone Number: </strong>+1(777)-777-7777</p>
+  <p><strong>Work Email: </strong>matthewburchproductions@gmail.com</p>
+  <hr>
+  <p><strong>Personal Phone Number: </strong>+1(713)-301-1194</p>
+  <p><strong>Personal Email: </strong>matthew.burch5@icloud.com</p>
+  <hr>
+  <p>For bookings, talk to my manager.</p>
+  <p>Feel free to contact me through the form below.</p>
+  <p>Have a nice day!</p>
+  <hr>
+  <form action="mailto:matthewburchproductions@gmail.com" method="post" enctype="text/plain">
+    <!-- How do you press enter and it goes to the following input field,
+    rather than submitting entire form? Submit button only way to submit form? -->
+    <table>
+      <tbody>
+        <tr>
+          <td><label>Your Name:</label></td>
+          <td><input type="text" name="yourName" value /></td>
+        </tr>
+        <tr>
+          <td><label>Email:</label></td>
+          <td><input type="email" name="yourEmail" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Message:</label></td>
+          <td>
+            <textarea name="yourMessage" rows="8" cols="50"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Attachment:</label>
+          </td>
+          <td><input type="file" name="" value=""></td>
+        </tr>
+        <!-- <tr>
+          <td><label>Password:</label></td>
+          <td><input type="password" name="" value=""></td>
+        </tr> -->
+      </tbody>
+    </table>
+    <!-- <label for="">Your Favorite Color:</label>
+    <input type="color" name="" value=""><br><br> -->
+    <!-- <input type="range" name="" value=""><br><br> -->
+    <!-- <input type="date" name="" value=""><br> -->
+    <label for="">Do you want to sign up for the email list?</label>
+    <!-- How does form read the checkbox value? -->
+    <input type="checkbox" name="" value="">
+    <!-- <input type="radio" name="" value=""> -->
+    <br><br>
+    <input type="submit" name="">
+
+  </form>
+</body>
+
+</html>
